@@ -1,0 +1,29 @@
+﻿@model IEnumerable<BloodBankProject.BLL.ViewModels.RequestViewModels.RequestReadVM>
+
+<h2>List of Blood Requests</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Blood Type</th>
+            <th>Patient Status</th>
+            <th>City</th>
+            <th>Quantity Requested</th>
+            <th>Hospital Name</th>
+            <th>Hospital City</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var request in Model)
+        {
+            <tr>
+                <td>@request.BloodType</td>
+                <td>@request.PatientStatus</td>
+                <td>@request.City</td>
+                <td>@request.QuantityRequested</td>
+                <td>@request.hospitalReadVM.Name</td>
+                <td>@request.hospitalReadVM.City</td>
+            </tr>
+        }
+    </tbody>
+</table>

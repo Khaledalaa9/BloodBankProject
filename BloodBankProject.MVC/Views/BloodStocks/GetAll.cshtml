@@ -1,0 +1,25 @@
+﻿@model IEnumerable<BloodBankProject.BLL.ViewModels.BloodStockViewModel.BloodStockReadVM>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Blood Type</th>
+            <th>Blood Bank City</th>
+            <th>Expiration Date</th>
+            <th>AvailableQuantity</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var stock in Model)
+        {
+            <tr>
+                <td>@stock.BloodType</td>
+                <td>@stock.BloodBankCity</td>
+                <td>@stock.ExpirationDate.ToString("yyyy-MM-dd")</td>
+                <td>@stock.AvailableQuantity</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

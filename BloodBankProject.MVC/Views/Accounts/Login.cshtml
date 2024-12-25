@@ -1,0 +1,101 @@
+﻿@* @model BloodBankManagementSystem.BLL.ViewModels.DonorViewModel.DonorLoginVM
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white text-center">
+                    <h3>Donor Login</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <div class="form-group mb-3">
+                            <label for="Email" class="form-label">Email</label>
+                            <input type="email" name="Email" class="form-control" value="@Model.Email" placeholder="Enter your email" required />
+                            <span class="text-danger">@Html.ValidationMessageFor(m => m.Email)</span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label for="Password" class="form-label">Password</label>
+                            <input type="password" name="Password" class="form-control" placeholder="Enter your password" required />
+                            <span class="text-danger">@Html.ValidationMessageFor(m => m.Password)</span>
+                        </div>
+
+                        <div class="form-group text-center">
+                            <button type="submit" class="btn btn-primary btn-block w-100">Login</button>
+                        </div>
+
+                        <div class="text-center mt-3">
+                            <a href="/Donors/Register">Don't have an account? Register here.</a>
+                        </div>
+
+                        <div class="text-center mt-2">
+                            <span class="text-danger">@Html.ValidationSummary()</span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .card {
+        border-radius: 10px;
+    }
+    .card-header {
+        font-size: 1.5rem;
+    }
+    .form-group label {
+        font-weight: bold;
+    }
+    .btn-block {
+        padding: 10px;
+    }
+</style>
+ *@
+ 
+@model BloodBankProject.BLL.ViewModels.DonorViewModel.DonorLoginVM
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Donor Login</h4>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <!-- Email -->
+                        <div class="form-group mb-3">
+                            <label asp-for="@Model.Email" class="form-label"></label>
+                            <input asp-for="@Model.Email" class="form-control" />
+                            <span asp-validation-for="@Model.Email" class="text-danger"></span>
+                        </div>
+
+                        <!-- Password -->
+                        <div class="form-group mb-3">
+                            <label asp-for="@Model.Password" class="form-label"></label>
+                            <input asp-for="@Model.Password" class="form-control" />
+                            <span asp-validation-for="@Model.Password" class="text-danger"></span>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary w-100">Login</button>
+                        </div>
+
+                        <!-- Error Message -->
+                        <div class="form-group">
+                            <span asp-validation-summary="ModelOnly" class="text-danger"></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

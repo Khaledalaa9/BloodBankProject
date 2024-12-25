@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\khale\\source\\repos\\BloodBankProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4EC3DB86-8E7E-42BE-BB04-38DEEE220FB6}|BloodBankProject.DAL\\BloodBankProject.DAL.csproj|c:\\users\\khale\\source\\repos\\bloodbankproject\\bloodbankproject.dal\\data\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EC3DB86-8E7E-42BE-BB04-38DEEE220FB6}|BloodBankProject.DAL\\BloodBankProject.DAL.csproj|solutionrelative:bloodbankproject.dal\\data\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\khale\\source\\repos\\BloodBankProject\\BloodBankProject.DAL\\Data\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "BloodBankProject.DAL\\Data\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\khale\\source\\repos\\BloodBankProject\\BloodBankProject.DAL\\Data\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "BloodBankProject.DAL\\Data\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T18:21:38.167Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

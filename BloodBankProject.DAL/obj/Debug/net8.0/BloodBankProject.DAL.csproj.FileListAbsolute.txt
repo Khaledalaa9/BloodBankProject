@@ -1,0 +1,14 @@
+C:\Users\khale\source\repos\BloodBankProject\BloodBankProject.DAL\bin\Debug\net8.0\BloodBankProject.DAL.deps.json
+C:\Users\khale\source\repos\BloodBankProject\BloodBankProject.DAL\bin\Debug\net8.0\BloodBankProject.DAL.runtimeconfig.json
+C:\Users\khale\source\repos\BloodBankProject\BloodBankProject.DAL\bin\Debug\net8.0\BloodBankProject.DAL.dll
+C:\Users\khale\source\repos\BloodBankProject\BloodBankProject.DAL\bin\Debug\net8.0\BloodBankProject.DAL.pdb
+C:\Users\khale\source\repos\BloodBankProject\BloodBankProject.DAL\obj\Debug\net8.0\BloodBankProject.DAL.csproj.AssemblyReference.cache
+C:\Users\khale\source\repos\BloodBankProject\BloodBankProject.DAL\obj\Debug\net8.0\BloodBankProject.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khale\source\repos\BloodBankProject\BloodBankProject.DAL\obj\Debug\net8.0\BloodBankProject.DAL.AssemblyInfoInputs.cache
+C:\Users\khale\source\repos\BloodBankProject\BloodBankProject.DAL\obj\Debug\net8.0\BloodBankProject.DAL.AssemblyInfo.cs
+C:\Users\khale\source\repos\BloodBankProject\BloodBankProject.DAL\obj\Debug\net8.0\BloodBankProject.DAL.csproj.CoreCompileInputs.cache
+C:\Users\khale\source\repos\BloodBankProject\BloodBankProject.DAL\obj\Debug\net8.0\BloodBankProject.DAL.dll
+C:\Users\khale\source\repos\BloodBankProject\BloodBankProject.DAL\obj\Debug\net8.0\refint\BloodBankProject.DAL.dll
+C:\Users\khale\source\repos\BloodBankProject\BloodBankProject.DAL\obj\Debug\net8.0\BloodBankProject.DAL.pdb
+C:\Users\khale\source\repos\BloodBankProject\BloodBankProject.DAL\obj\Debug\net8.0\BloodBankProject.DAL.genruntimeconfig.cache
+C:\Users\khale\source\repos\BloodBankProject\BloodBankProject.DAL\obj\Debug\net8.0\ref\BloodBankProject.DAL.dll

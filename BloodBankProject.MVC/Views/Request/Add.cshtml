@@ -1,0 +1,69 @@
+﻿@model BloodBankProject.BLL.ViewModels.RequestViewModels.RequestAddVM
+@{
+    SelectList selectListItems = new SelectList(Model.HospitalReadVMs, "Id", "Name");
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">Add Blood Request</h2>
+    <form asp-action="Add" method="post">
+        <div class="row g-3">
+            <div class="col-md-6">
+                <label asp-for="BloodType" class="form-label">Blood Type</label>
+                <select asp-for="BloodType" class="form-select" required>
+                    <option value="">Select Blood Type</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="AB">AB</option>
+                    <option value="O">O</option>
+                </select>
+                <span asp-validation-for="BloodType" class="text-danger"></span>
+            </div>
+            <div class="col-md-6">
+                <label asp-for="HospitalId" class="form-label">Hospital</label>
+                <select asp-for="HospitalId" class="form-select" asp-items="selectListItems" onchange="updateCity(this)" required>
+                    <option value="">Select a Hospital</option>
+                    @foreach (var hospital in Model.HospitalReadVMs)
+                    {
+                        <option value="@hospital.Id" data-city="@hospital.City">@hospital.Name</option>
+                    }
+                </select>
+                <span asp-validation-for="HospitalId" class="text-danger"></span>
+            </div>
+            <div class="col-md-6">
+                <label asp-for="City" class="form-label">City</label>
+                <input asp-for="City" class="form-control" />
+                <span asp-validation-for="City" class="text-danger"></span>
+            </div>
+            <div class="col-md-6">
+                <label asp-for="PatientStatus" class="form-label">Patient Status</label>
+                <select asp-for="PatientStatus" class="form-select" required>
+                    <option value="">Select Status</option>
+                    <option value="Immediate">Immediate</option>
+                    <option value="Urgent">Urgent</option>
+                    <option value="Normal">Normal</option>
+                </select>
+                <span asp-validation-for="PatientStatus" class="text-danger"></span>
+            </div>
+            <div class="col-md-6">
+                <label asp-for="QuantityRequested" class="form-label">Quantity Requested</label>
+                <input asp-for="QuantityRequested" class="form-control" type="number" min="1" required />
+                <span asp-validation-for="QuantityRequested" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="mt-4">
+            <button type="submit" class="btn btn-primary btn-lg">Submit Request</button>
+        </div>
+    </form>
+</div>
+
+<script>
+    function updateCity(selectElement) {
+        var selectedHospital = selectElement.options[selectElement.selectedIndex];
+        var cityInput = document.querySelector('input[name="City"]');
+        cityInput.value = selectedHospital.getAttribute('data-city') || '';
+    }
+</script>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

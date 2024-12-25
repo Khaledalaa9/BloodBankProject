@@ -1,0 +1,15 @@
+C:\Users\khale\source\repos\BloodBankProject\BloodBankProject.BLL\bin\Debug\net8.0\BloodBankProject.BLL.deps.json
+C:\Users\khale\source\repos\BloodBankProject\BloodBankProject.BLL\bin\Debug\net8.0\BloodBankProject.BLL.dll
+C:\Users\khale\source\repos\BloodBankProject\BloodBankProject.BLL\bin\Debug\net8.0\BloodBankProject.BLL.pdb
+C:\Users\khale\source\repos\BloodBankProject\BloodBankProject.BLL\bin\Debug\net8.0\BloodBankProject.DAL.dll
+C:\Users\khale\source\repos\BloodBankProject\BloodBankProject.BLL\bin\Debug\net8.0\BloodBankProject.DAL.pdb
+C:\Users\khale\source\repos\BloodBankProject\BloodBankProject.BLL\obj\Debug\net8.0\BloodBankProject.BLL.csproj.AssemblyReference.cache
+C:\Users\khale\source\repos\BloodBankProject\BloodBankProject.BLL\obj\Debug\net8.0\BloodBankProject.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khale\source\repos\BloodBankProject\BloodBankProject.BLL\obj\Debug\net8.0\BloodBankProject.BLL.AssemblyInfoInputs.cache
+C:\Users\khale\source\repos\BloodBankProject\BloodBankProject.BLL\obj\Debug\net8.0\BloodBankProject.BLL.AssemblyInfo.cs
+C:\Users\khale\source\repos\BloodBankProject\BloodBankProject.BLL\obj\Debug\net8.0\BloodBankProject.BLL.csproj.CoreCompileInputs.cache
+C:\Users\khale\source\repos\BloodBankProject\BloodBankProject.BLL\obj\Debug\net8.0\BloodBan.492B56B4.Up2Date
+C:\Users\khale\source\repos\BloodBankProject\BloodBankProject.BLL\obj\Debug\net8.0\BloodBankProject.BLL.dll
+C:\Users\khale\source\repos\BloodBankProject\BloodBankProject.BLL\obj\Debug\net8.0\refint\BloodBankProject.BLL.dll
+C:\Users\khale\source\repos\BloodBankProject\BloodBankProject.BLL\obj\Debug\net8.0\BloodBankProject.BLL.pdb
+C:\Users\khale\source\repos\BloodBankProject\BloodBankProject.BLL\obj\Debug\net8.0\ref\BloodBankProject.BLL.dll
